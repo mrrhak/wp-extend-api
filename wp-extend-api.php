@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Extend API
- * Plugin URI: http://www.mrrhak.com/extend-api
+ * Plugin Name: WP Extend API
+ * Plugin URI: https://github.com/mrrhak/wp-extend-api
  * Description: This plugin create for extend wp rest api.
  * Version: 1.0
  * Author: Mrr Hak

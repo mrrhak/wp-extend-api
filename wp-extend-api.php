@@ -20,4 +20,20 @@ function add_rand_orderby_rest_post_collection_params( $query_params ) {
 	$query_params['orderby']['enum'][] = 'rand';
 	return $query_params;
 }
+
 add_filter( 'rest_post_collection_params', 'add_rand_orderby_rest_post_collection_params' );
+
+// register_activation_hook( __FILE__, 'wp_extend_api_plugin_activation' );
+// function wp_extend_api_plugin_activation(){
+// 	//YOUR CODE
+// }
+
+// register_deactivation_hook( __FILE__, 'wp_extend_api_plugin_deactivation' );
+// function wp_extend_api_plugin_deactivation() {
+// 	//YOUR CODE
+// }
+
+// register_uninstall_hook( __FILE__, 'wp_extend_api_plugin_uninstall' );
+// function wp_extend_api_plugin_uninstall() {
+// 	// Uninstallation stuff here
+// }
